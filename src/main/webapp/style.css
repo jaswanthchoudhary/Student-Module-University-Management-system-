@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('backgroundImage.jpg') no-repeat center top; /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    background-color:  rgba(141, 135, 135, 0.9); /* Slightly transparent background */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"], button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+
+th {
+    padding-bottom: 20px;
+}
